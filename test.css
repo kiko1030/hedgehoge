@@ -1,0 +1,18 @@
+body{
+    background: rgb(14, 56, 61);
+    color: rgb(247, 218, 180);
+    font-size: 40px;
+    width: 300px;
+    margin:auto
+}
+
+.title{
+    font-size: 60px;
+    color: rgb(250, 222, 95);
+}
+
+select{
+    background: rgb(14, 56, 61);
+    color: rgb(247, 218, 180);
+    font-size: 20px;
+}
