@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script src="tabselect_sweet.js"></script>
+</head>
+<body>
+    <p class="title text-center"><b>Sweets</b></p>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#cake" class="nav-link active" data-toggle="tab">cake</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cookie" class="nav-link" data-toggle="tab">cookie</a>
+            </li>
+            <li class="nav-item">
+                <a href="#chocolate" class="nav-link" data-toggle="tab">chocolate</a>
+            </li>
+            <li class="nav-item">
+                <a href="#donut" class="nav-link" data-toggle="tab">donut</a>
+            </li>
+        </ul>
+    </div> 
+    
+    <div class="tab-content text-center">
+        <div id="cake" class="tab-pane active">
+            <br>
+            <img src="./sweets/cake.png" width="400">
+            <!-- TODO:ここにHTMLかtxtを挿入したい -->
+        </div>
+        <div id="cookie" class="tab-pane">
+            <br>
+            <img src="./sweets/cookie.png" width="400">
+            <!-- TODO:ここにHTMLかtxtを挿入したい -->
+        </div>
+        <div id="chocolate" class="tab-pane">
+            <br>
+            <img src="./sweets/chocolate.png" width="400">
+            <!-- TODO:ここにHTMLかtxtを挿入したい -->
+        </div>
+        <div id="donut" class="tab-pane">
+            <br>
+            <img src="./sweets/donut.png" width="400">
+            <!-- TODO:ここにHTMLかtxtを挿入したい -->
+        </div>
+    </div>
+</body>
+</html>

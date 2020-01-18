@@ -11,7 +11,7 @@ $(function(){
         if($('option:selected').text() === 'select here'){
             $(".type").text('');
         }else{
-            $(".type").html($('option:selected').text()+'<img class="text-center" src="'+$('option:selected').text()+'.png">');        
+            $(".type").html($('option:selected').text()+'<img class="text-center" src="./sweets/'+$('option:selected').text()+'.png" width="400">');        
         }
     });
 });

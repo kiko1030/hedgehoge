@@ -2,7 +2,7 @@ body{
     background: rgb(14, 56, 61);
     color: rgb(247, 218, 180);
     font-size: 40px;
-    width: 300px;
+    width: 402.5px;
     margin:auto
 }
 
@@ -15,4 +15,18 @@ select{
     background: rgb(14, 56, 61);
     color: rgb(247, 218, 180);
     font-size: 20px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: rgb(247, 218, 180);
+}
+
+input{
+    font-size: 20px;
+    width:120px
+}
+
+th{
+    color: darkgray;
 }
